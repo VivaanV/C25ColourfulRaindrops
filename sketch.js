@@ -5,7 +5,7 @@ function setup() {
 }
 
 function draw() {
-  background(0); 
+  background(150); 
 
   if(frameCount % 1 === 0){
     var raindrop = new Raindrop(random(0, windowWidth), 0, random(3,5), random(30, 50));

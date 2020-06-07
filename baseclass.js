@@ -9,7 +9,7 @@ class baseClass{
    
     display(){
         push();
-        fill("blue");
+        fill("yellow");
         rectMode(CENTER);
         rect(this.x, this.y, this.width,this.height);
         pop();
